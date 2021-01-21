@@ -14,7 +14,7 @@ namespace SodaMachine
         //Constructor (Spawner)
         public Penny()
         {
-            Name = "Penny";
+            Name = "Shiny Penny";
             value = .01;
             //take this out if program runspennyInWallet = "this in a penny in my wallet";
         }

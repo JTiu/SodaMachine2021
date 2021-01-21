@@ -21,9 +21,9 @@ namespace SodaMachine
 
             ////step one instantiate wallet, 
             Wallet JTsWallet = new Wallet("My coin wallet");
-            Coin pennyInWallet = new Penny();
+            //Coin pennyInWallet = new Penny();
 
-            Console.WriteLine(JTsWallet.walletName + " contains a " + pennyInWallet.Name + " with a value of: " + pennyInWallet.Value);
+            Console.WriteLine(JTsWallet.walletName /*+ " contains a " + pennyInWallet.Name + " with a value of: " + pennyInWallet.Value*/);
             Console.ReadLine();
         }
     }
